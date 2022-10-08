@@ -1,0 +1,147 @@
+.input-div{
+    display: flex;
+    height: 5vh;
+    background-color: rgb(236, 236, 236);
+    border-radius: 2px;
+    margin-top: 2vh;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid rgb(236, 236, 236);
+}
+.input-div p{
+    padding: 0 0.8rem;
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.balance{
+    display: flex;
+}
+.bal{
+    background-color: rgb(255, 249, 170); 
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem 0.8rem;
+    width: 100px;
+    text-transform: uppercase;
+    font-style: bold;
+    font-size: 15px;
+    height: 40px;
+    font-weight: bolder;
+}
+.light-bal{
+    background-color: #fff;
+    border: 1px solid #222;
+    width: 90px;
+}.light-bal:hover{
+    background-color: rgb(255, 249, 170);
+}
+.time{
+    padding: 1rem 1rem;
+}
+.days{
+    background-color: rgb(252, 235, 116);
+}
+.gray{
+    background-color: #fff;
+    border: 1px solid #222;
+}
+.gray:hover{
+    background-color: rgb(252, 235, 116);
+}
+.btn-handeler{
+    display: flex;
+}
+.enb{
+    text-transform: uppercase;
+    margin: 1vh 2vh;
+    font-weight: bolder;
+}
+.check-box {
+	transform: scale(2);
+}
+.roi{
+    text-align: end;
+    padding: 0 1rem;
+    color: gray;
+}
+.final-btn{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.Dark{
+    background-color: rgb(51, 51, 51);
+    width: 150px;
+    border-radius: 25px;
+    height: 5vh;
+    border: none;
+    color: white;
+    margin-right: 4vh;
+    cursor: pointer;
+}
+.light{
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid #222;
+}
+.black{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+input[type="checkbox"] {
+    position: relative;
+    appearance: none;
+    width: 10px;
+    height: 5px;
+    background: #ccc;
+    border-radius: 50px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+input:checked[type="checkbox"] {
+    background: rgb(252, 235, 116);
+}
+input[type="checkbox"]::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+input:checked[type="checkbox"]::after {
+    left: 50%;
+}
+.down{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.checkbox1{
+    margin-right: 2vh;
+}
+.text-tier{
+    color: gray;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+.round{
+    border-radius: 40px;
+}
+@media screen  and (max-width: 740px){
+    .input-div{
+        width: 90%;
+        margin-left: 3vh;
+    }
+}
